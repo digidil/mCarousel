@@ -3,7 +3,7 @@
  * http://www.digi-dil.com/mCarousel
  *
  * Copyright 2011, Armaan Ahluwalia
- * http://jquery.org/license
+ * License Undecided
  */
 
 (function( $ ){
