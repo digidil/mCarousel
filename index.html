@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/mStyles.css" />	
 <script src="js/jquery.js" type="text/javascript"></script>
-<script src="js/mCarousel_0,6.js"></script>
+<script src="js/mCarousel_0,7.js"></script>
 <script>
 $(window).load(function(){
-	$('ul').mCarousel(
+	$('#myCarousel').mCarousel(
 		{
 			width: 960,
-			height: 300,
-			featuredItem_width : 700,
+			height: 280,
+			featuredItem_width : 300,
 			animTime : 800,
 			captions: false
 		}
@@ -20,24 +21,41 @@ $(window).load(function(){
 </script>
 </head>
 <body>
-	<ul id="containerId">
-		<a href=""><img src="img/bag1.png"></a>
-		<a href=""><img src="img/bag1.png"></a>
-		<a href=""><img src="img/bag1.png"></a>
-		<a href=""><img src="img/bag1.png"></a>							
-		<a href=""><img src="img/bag1.png"></a>
-		<a href=""><img src="img/bag1.png"></a>	
-		<a href=""><img src="img/bag1.png"></a>							
-		<a href=""><img src="img/bag1.png"></a>
-		<a href=""><img src="img/bag1.png"></a>			
-		<!-- <a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
-		<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/2.png"></a>
-		<a href="http://www.google.com"><img src="img/endstar/3.png"></a>
-		<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
-		<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/2.png"></a>
-		<a href="http://www.google.com"><img src="img/endstar/3.png"></a>
-		<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
-		<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/2.png"></a>
-		<a href="http://www.google.com"><img src="img/endstar/3.png"></a>				 -->
+	<div id="container">
+		<div id="header" class="clearfix">
+			<img id="logo" src="img/logo.png" />
+		</div>
+		<ul id="myCarousel">
+			<!-- <a href=""><img src="img/bag1.png"></a>
+			<a href=""><img src="img/bag1.png"></a>
+			<a href=""><img src="img/bag1.png"></a>
+			<a href=""><img src="img/bag1.png"></a>							
+			<a href=""><img src="img/bag1.png"></a>									
+			<a href=""><img src="img/bag1.png"></a>
+			<a href=""><img src="img/bag1.png"></a>							 -->
+			
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/2.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/2.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/2.png"></a>
+			<a href="http://www.google.com"><img src="img/endstar/3.png"></a>				
+			
+			<!-- <a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>
+			<a href="http://www.google.com" title="This is some lorem ipsum dolor text for you to enjoy"><img src="img/endstar/1.png"></a>															 -->
+		</ul>
+		<h1>How to Use</h1>
+		<p>
+			In order to use mCarousel you must insert the following script into the head section of the web page.
+		</p>		
+	</div>	
 </body>
 </html>
